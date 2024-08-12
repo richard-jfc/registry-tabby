@@ -1,13 +1,13 @@
 [
   {
-    "license_name": "Deepseek License",
-    "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
-    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
-    "name": "DeepseekCoder-6.7B",
-    "provider_url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base",
+    "license_name": "Llama 2",
+    "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
+    "prompt_template": "<PRE> {prefix} <SUF>{suffix} <MID>",
+    "name": "CodeLlama-7B",
+    "provider_url": "https://huggingface.co/codellama/CodeLlama-7b-hf",
     "urls": [
-      "https://huggingface.co/TheBloke/deepseek-coder-6.7B-base-GGUF/resolve/main/deepseek-coder-6.7b-base.Q4_K_M.gguf"
+      "https://huggingface.co/TheBloke/CodeLlama-7B-GGUF/resolve/main/codellama-7b.Q4_K_M.gguf"
     ],
-    "sha256": "28cef03e1b2d2478dafdb09f1520417cab55efcd3d1cc22bb1950c90bcd8804b"
+    "sha256": "c3866cb985de17d398c2d7e85bb8a9c717a76bb997dce0e72a0cb169063e6d17"
   }
 ]
