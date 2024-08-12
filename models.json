@@ -9,5 +9,16 @@
       "https://huggingface.co/TheBloke/CodeLlama-7B-GGUF/resolve/main/codellama-7b.Q4_K_M.gguf"
     ],
     "sha256": "c3866cb985de17d398c2d7e85bb8a9c717a76bb997dce0e72a0cb169063e6d17"
+  },
+  {
+    "name": "DeepSeek-Coder-V2-Lite",
+    "provider_url": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Base",
+    "license_name": "Deepseek License",
+    "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+    "urls": [
+      "https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Base-GGUF/resolve/main/DeepSeek-Coder-V2-Lite-Base-IQ2_XS.gguf"
+    ],
+    "sha256": "1e945187331ec242c3845e3afc129b7e73d0ece7ebdf1e2ee5bd4de846fbfb4b"
   }
 ]
